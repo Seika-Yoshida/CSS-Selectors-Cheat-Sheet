@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="stylesheet" href="styles.css"> 
+    <title>CSS Selectors Cheat Sheet</title>
+</head>
+<body>
+    <h1>CSS Selectors Cheat Sheet</h1>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Selector</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>p</td>
+                <td>Applies the style to all paragraphs (&lt;p&gt; tag).</td>
+            </tr>
+            <tr>
+                <td>*</td>
+                <td>Applies the style to all elements on the page.</td>
+            </tr>
+            <tr>
+                <td>.classname</td>
+                <td>Applies the style to elements with the class name "classname".</td>
+            </tr>
+            <tr>
+                <td>#idname</td>
+                <td>Applies the style to the element with the ID "idname".</td>
+            </tr>
+            <tr>
+                <td>div p</td>
+                <td>Applies the style to all &lt;p&gt; elements that are descendants of a &lt;div&gt;.</td>
+            </tr>
+            <tr>
+                <td>article > p</td>
+                <td>Applies the style to all &lt;p&gt; elements that are direct children of an &lt;article&gt;.</td>
+            </tr>
+            <tr>
+                <td>[href]</td>
+                <td>Applies the style to all elements with an href attribute.</td>
+            </tr>
+            <tr>
+                <td>p:first-child</td>
+                <td>Applies the style to the first child of all &lt;p&gt; elements.</td>
+            </tr>
+            <tr>
+                <td>p::first-line</td>
+                <td>Applies the style to the first line of all &lt;p&gt; elements.</td>
+            </tr>
+            <tr>
+                <td>h1 + p</td>
+                <td>Applies the style to all &lt;p&gt; elements immediately following an &lt;h1&gt;.</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
